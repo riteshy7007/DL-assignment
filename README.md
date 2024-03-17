@@ -9,7 +9,7 @@ Dependencies: List the dependencies required to run the project, including Pytho
 
 Installation: Provide instructions on how to install the necessary dependencies.
 
-Usage: Explain how to use the project, including how to run the code and any command-line arguments.
+**Usage: use a Google collab to run it and attach MNIST  file in "/content/sample_data/Mnist''the file in nin.**
 
 Results: Summarize the results, including the accuracy of k-means clustering using the available labels in the MNIST dataset.
 
@@ -27,7 +27,7 @@ Dependencies: List the dependencies required to run the project, such as TensorF
 
 Installation: Explain how to install the necessary dependencies.
 
-Usage: Describe how to use the project, including how to train the GAN and generate new face samples.
+**Usage: use a Google collab to run it and attach   file in '/content/sample_data/frey_rawface.mat'the file in nin.**
 
 Results: Optionally, include any observations or comments on the quality of the generated faces.
 
@@ -52,7 +52,7 @@ Copy code
 pip install tensorflow numpy matplotlib scipy
 Usage:
 Download the Frey Face dataset from the provided link and place it in the project directory.
-Run the Python script to train the Variational Autoencoder on the Frey Face dataset.
+**Usage: use a Google collab to run it and attach   file in '/content/sample_data/frey_rawface.mat'the file in nin.**
 After training, sample points from the learned distribution by varying different latent variables to visualize the generated face images.
 Results:
 The project demonstrates the effectiveness of Variational Autoencoders in learning a meaningful latent space representation of face images. It showcases the ability to generate new face samples by sampling from the learned distribution and varying different latent variables.
